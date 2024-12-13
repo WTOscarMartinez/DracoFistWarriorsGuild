@@ -1,0 +1,79 @@
+@page
+@model DracoFistWarriorsGuild.Pages_Quests.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Quest</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Quest.QuestID" />
+            <input type="hidden" value="@Model.Quest.ImgUrl" asp-for="Quest.ImgUrl" class="form-control" />
+            <div class="form-group">
+                <label asp-for="Quest.Type" class="control-label"></label>
+                <select asp-for="Quest.Type" class="form-control">
+                    <option value="" disabled selected>Open this select menu</option>
+                    <option value="Kill">Kill</option>
+                    <option value="Escort">Escort</option>
+                    <option value="Fetch">Fetch</option>
+                    <option value="Delivery">Delivery</option>
+                </select>
+                <span asp-validation-for="Quest.Type" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Quest.Description" class="control-label"></label>
+                <input asp-for="Quest.Description" class="form-control" />
+                <span asp-validation-for="Quest.Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Quest.Reward" class="control-label"></label>
+                <input asp-for="Quest.Reward" class="form-control" />
+                <span asp-validation-for="Quest.Reward" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Quest.PostedDate" class="control-label"></label>
+                <input asp-for="Quest.PostedDate" class="form-control" type="text" readonly />
+                <span asp-validation-for="Quest.PostedDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Quest.Status" class="control-label"></label>
+                <select asp-for="Quest.Status" class="form-control">
+                    <option value="" disabled selected>Open this select menu</option>
+                    <option value="Not Started">Not Started</option>
+                    <option value="Active">Active</option>
+                    <option value="Completed">Completed</option>
+                </select>
+                <span asp-validation-for="Quest.Status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Quest.CompletedBy" class="control-label"></label>
+                <select asp-for="Quest.CompletedBy" class="form-control" asp-items="ViewBag.Members">
+                    <option value="" selected>None</option>
+                </select>
+                <span asp-validation-for="Quest.CompletedBy" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-4">
+                <label asp-for="Quest.CompletedOn" class="control-label"></label>
+                <input asp-for="Quest.CompletedOn" class="form-control" />
+                <span asp-validation-for="Quest.CompletedOn" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-4">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
