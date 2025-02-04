@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using DracoFistWarriorsGuild.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,10 +13,17 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 var app = builder.Build();
 
-// Seed Data
+// Apply migrations automatically
 using (var scope = app.Services.CreateScope())
 {
-        SeedData.Initialize(scope.ServiceProvider);
+    var services = scope.ServiceProvider;
+    var context = services.GetRequiredService<AppDbContext>();
+    
+    // Apply any pending migrations and create the database if it doesn't exist
+    context.Database.Migrate();
+
+    // Seed data if necessary
+    SeedData.Initialize(services);
 }
 
 // Configure the HTTP request pipeline.
@@ -37,5 +45,9 @@ app.UseAuthorization();
 app.MapStaticAssets();
 app.MapRazorPages()
    .WithStaticAssets();
+
+// Automatically open browser when app starts
+var url = "http://localhost:5160";
+await Task.Run(() => Process.Start(new ProcessStartInfo(url) { UseShellExecute = true }));
 
 app.Run();
