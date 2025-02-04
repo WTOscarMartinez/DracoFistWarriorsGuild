@@ -47,7 +47,7 @@ app.MapRazorPages()
    .WithStaticAssets();
 
 // Automatically open browser when app starts
-var url = "http://localhost:5160";
+var url = "http://localhost:5000";
 await Task.Run(() => Process.Start(new ProcessStartInfo(url) { UseShellExecute = true }));
 
 app.Run();
