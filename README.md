@@ -1,22 +1,3 @@
-# Technical Portfolio ReadMe Templates
-
-## 1. Root Repository ReadMe
-
-### Technical Portfolio
-
-Welcome to my technical portfolio! This repository showcases a collection of projects and artifacts demonstrating my skills in software development, database management, and web technologies. Below is an overview of the projects included in this portfolio.
-
-### Project Overview
-
-- **Wampus Game**: A console-based game where the user hunts for treasure and avoids traps. Technologies: C#, OOP, VS Code.
-- **Music Store Database**: A relational database designed for a music store, including SQL queries and entity relationships. Technologies: SQL, MySQL, ER Diagrams.
-- **University Website (Razor Pages)**: A web application built using Razor Pages for managing university course registrations. Technologies: ASP.NET, C#, Bootstrap.
-- **Cupcake Simulation Proposal**: A proposal outlining a simulation project for a cupcake business. Technologies: Business Analysis, UML Diagrams.
-
-Each project folder contains a detailed ReadMe file describing its purpose, functionality, and technologies used.
-
-## 2. Individual Project ReadMe Template
-
 ### Project Name
 
 #### Description
