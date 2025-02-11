@@ -5,6 +5,8 @@ A brief description of the project, including its purpose and key features. Exam
 
 > "Wampus Game is a console-based game where players navigate a dungeon to hunt for treasure while avoiding traps."
 
+![Headshot](https://u.cubeupload.com/OzFromMarz/looknohands.png)
+
 #### Technologies Used
 List the primary technologies, frameworks, and tools used in the project. Example:
 
