@@ -1,24 +1,22 @@
-### Project Name
+### DracoFist Warriors Guild Website
 
 #### Description
-A brief description of the project, including its purpose and key features. Example:
 
-> "Wampus Game is a console-based game where players navigate a dungeon to hunt for treasure while avoiding traps."
+> "Online interface to manage guild memberships."
 
 #### Technologies Used
-List the primary technologies, frameworks, and tools used in the project. Example:
 
-- Programming Language: C#
+- Programming Language: C#, HTML\CSS, JavaScript, 
 - IDE: Visual Studio Code
-- Libraries: System.IO, System.Collections.Generic
-- Concepts: Object-Oriented Programming (OOP), File Handling
+- Libraries: System.IO, System.Collections.Generic, AspNetCore, Microsoft.EntityFrameworkCore, System.ComponentModel.DataAnnotations
+- Concepts: Object-Oriented Programming (OOP)
 
 #### Features
 
-- User navigation through a dungeon
-- Create
-- Scoring system
-- Save/load game functionality
+- Assign guild members to quests.
+- 
+- Create\Modify\Delete Quests
+- Create\Modify\Delete Members
 
 #### Installation & Setup
 Provide instructions on how to set up and run the project. Example:
@@ -29,15 +27,11 @@ Provide instructions on how to set up and run the project. Example:
 4. Run the project: `dotnet run`
 
 #### Screenshots
+##### Homepage
+![Homepage](https://u.cubeupload.com/OzFromMarz/Homepage.jpg)
+##### Quest Board
+![Homepage](https://u.cubeupload.com/OzFromMarz/Homepage.jpg)
+##### Members Page
 ![Homepage](https://u.cubeupload.com/OzFromMarz/Homepage.jpg)
 
-#### Future Enhancements
-Discuss potential improvements or extensions to the project.
-
-#### License
-(Optional) Mention any applicable licensing information.
-
----
-
-By following these templates, you can ensure that each project in your portfolio is well-documented, making it easier for potential employers to assess your technical skills.
 
