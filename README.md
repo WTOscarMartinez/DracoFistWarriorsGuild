@@ -30,8 +30,8 @@ Provide instructions on how to set up and run the project. Example:
 ##### Homepage
 ![Homepage](https://u.cubeupload.com/OzFromMarz/Homepage.jpg)
 ##### Quest Board
-![Homepage](https://cubeupload.com/im/OzFromMarz/QuestPage.jpg)
-##### Members Page
 ![Homepage](https://u.cubeupload.com/OzFromMarz/QuestPage.jpg)
+##### Members Page
+![Homepage](https://u.cubeupload.com/OzFromMarz/OurMembersPage.jpg)
 
 
