@@ -5,8 +5,6 @@ A brief description of the project, including its purpose and key features. Exam
 
 > "Wampus Game is a console-based game where players navigate a dungeon to hunt for treasure while avoiding traps."
 
-![Headshot](https://u.cubeupload.com/OzFromMarz/looknohands.png)
-
 #### Technologies Used
 List the primary technologies, frameworks, and tools used in the project. Example:
 
@@ -16,23 +14,22 @@ List the primary technologies, frameworks, and tools used in the project. Exampl
 - Concepts: Object-Oriented Programming (OOP), File Handling
 
 #### Features
-Outline the key features of the project. Example:
 
 - User navigation through a dungeon
-- Randomized treasure placement
+- Create
 - Scoring system
 - Save/load game functionality
 
 #### Installation & Setup
 Provide instructions on how to set up and run the project. Example:
 
-1. Clone the repository: `git clone https://github.com/yourusername/portfolio.git`
-2. Navigate to the project folder: `cd WampusGame`
+1. Clone the repository: `git clone https://github.com/WTOscarMartinez/DracoFistWarriorsGuild.git`
+2. Navigate to the project folder: `cd DracoFistWarriorsGuild`
 3. Open in Visual Studio Code
 4. Run the project: `dotnet run`
 
 #### Screenshots
-Include relevant screenshots or PDFs showcasing the project's output.
+![Homepage](https://u.cubeupload.com/OzFromMarz/Homepage.jpg)
 
 #### Future Enhancements
 Discuss potential improvements or extensions to the project.
