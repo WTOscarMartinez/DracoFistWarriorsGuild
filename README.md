@@ -31,6 +31,9 @@
 3. Navigate to the folder: `cd DracoFistWarriorsGuild`
 4. Open DracoFistWarriorsGuild.exe
 
+#### Project Idea 
+[Outline PDF](https://github.com/WTOscarMartinez/DracoFistWarriorsGuild/blob/87153d73db7b1a5271c914e7d9502c954cda912d/WebAppIdea-DracoFistWarriorsGuild.pdf)
+
 #### Screenshots
 ##### Homepage
 ![Homepage](https://u.cubeupload.com/OzFromMarz/Homepage.jpg)
@@ -38,5 +41,6 @@
 ![Homepage](https://u.cubeupload.com/OzFromMarz/QuestPage.jpg)
 ##### Members Page
 ![Homepage](https://u.cubeupload.com/OzFromMarz/OurMembersPage.jpg)
+
 
 
