@@ -26,7 +26,7 @@
 4. Run the project: `dotnet run`
 
 #### Demo Installation & Setup
-1. Download Zip: `https://drive.google.com/file/d/1SvC0eiVusVMkA9uBIZT4gDChhaEplvMq/view?usp=sharing`
+1. Download Zip: [Download](https://drive.google.com/file/d/1SvC0eiVusVMkA9uBIZT4gDChhaEplvMq/view?usp=sharing)
 2. Extract Zip.
 3. Navigate to the folder: `cd DracoFistWarriorsGuild`
 4. Open DracoFistWarriorsGuild.exe
