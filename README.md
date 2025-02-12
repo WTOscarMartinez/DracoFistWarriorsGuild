@@ -14,7 +14,7 @@
 #### Features
 
 - Assign guild members to quests.
-- Filter tables.
+- Filter tables and change quest status.
 - Create\Modify\Delete Quests
 - Create\Modify\Delete Members
 
